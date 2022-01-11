@@ -1,12 +1,10 @@
 import React from "react";
 
-function StickyNote({ name, message }) {
-  console.log(`Name: ${name}, Message: ${message}`);
+function StickyNote({ text }) {
   return (
-    <div>
-      <h1>{name}</h1>
-      <h2>Message: {message}</h2>
-      <hr />
+    <div className="sticky-note-container">
+      <div className="sticky-note-head"></div>
+      <div className="sticky-note-body">{text}</div>
     </div>
   );
 }
