@@ -4,10 +4,9 @@ import StickyNote from "./StickyNote";
 function App() {
   return (
     <>
-      <StickyNote name="Ali" message="Hi whats up!" />
-
-      <StickyNote name="Azhar" message="Hello from abd" />
-      <StickyNote name="Arshaan" />
+      <StickyNote text="Hi whats up!" />
+      <StickyNote text="Hello Can you please close the doors" />
+      <StickyNote text="Hello this is going to be a long talk but can you please cook some food for tonight" />
     </>
   );
 }
