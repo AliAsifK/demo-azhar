@@ -1,5 +1,5 @@
 import "./App.css";
-import StickyNote from "./StickyNote";
+import StickyNote from "./components/StickyNote";
 
 function App() {
   return (
